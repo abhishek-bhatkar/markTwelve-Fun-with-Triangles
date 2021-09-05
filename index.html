@@ -5,8 +5,72 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fun with triangles</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+    <nav class="navigation ">
+        <div class="nav-brand"> funwithtriangles</div>
+
+        <div>
+            <ul class="list-non-bullet nav-pills">
+                
+                <li class="list-item-inline"> <a class="link link-active" href="./index.html"> isTriangle? </a> </li>
+                
+                <li class="list-item-inline"> <a class="link " href="./quiz.html"> Quiz </a> </li>
+                
+                <li class="list-item-inline"> <a class="link" href="./hypotenuse.html"> Hypotenuse </a> </li>
+
+                <li class="list-item-inline"> <a class="link" href="./area.html"> Area </a> </li>
+
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        
+
+        
+        <div class="container-center container">
+
+            
+
+            <div class="row1">
+                <div class="column column2"><h1>Check if the angles make a triangle?</h1></div>
+            </div>
+
+            
+
+            
+                <div class="form-row container-center">
+                    <label for="bdate">Enter angle 1</label>
+                    <input class="angle-1" type="number" placeholder="Enter Angle 1">
+                </div>
+
+                <div class="form-row container-center">
+                    <label for="bdate">Enter angle 2</label>
+                    <input class="angle-2" type="number" placeholder="Enter Angle 2">
+                </div>
+
+                <div class="form-row container-center">
+                    <label for="bdate">Enter angle 3</label>
+                    <input class="angle-3" type="number" placeholder="Enter Angle 3">
+                </div>
+                
+                <div class="row container-center error">
+                    <p class="error-msg"></p>
+                </div>
+                <div class="row container-center">
+                    <button id="submit-btn" type="submit">Check</button>
+                </div>
+            
+
+            <div class="output-msg">
+            </div>
+
+
+        </div>
+    </main>
     
 </body>
 </html>
